@@ -64,7 +64,7 @@ def decrypt_text(encrypted_text, key):
     
 stored_data = load_data()
 
-st.title("Secure Data Encryption System")
+st.title(" 🔐 Secure Data Encryption System")
 menu = ["Home", "Login", "Register", "Store Data", "Retrieve Data"]
 choice = st.sidebar.selectbox("Navigation", menu)
 
